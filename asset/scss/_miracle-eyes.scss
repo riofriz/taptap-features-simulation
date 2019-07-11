@@ -79,4 +79,65 @@
       font-weight: bold;
     }
   }
+
+
+  .totals {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .shard-counters {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    >div {
+      display: inline-block;
+      max-width: 10%;
+      vertical-align: top;
+      text-align: center;
+      &:before {
+        content: '';
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        background-size: cover;
+        display: block;
+        margin-right: 0.5em;
+      }
+    }
+    >div.alliance {
+      &:before {
+        background-image: url('asset/images/alliance-four-shard.png');
+      }
+    }
+    >div.horde {
+      &:before {
+        background-image: url('asset/images/horde-four-shard.png');
+      }
+    }
+    >div.elves {
+      &:before {
+        background-image: url('asset/images/elves-four-shard.png');
+      }
+    }
+    >div.undead {
+      &:before {
+        background-image: url('asset/images/undead-four-shard.png');
+      }
+    }
+    >div.heaven {
+      &:before {
+        background-image: url('asset/images/heaven-four-shard.png');
+      }
+    }
+    >div.hell {
+      &:before {
+        background-image: url('asset/images/hell-four-shard.png');
+      }
+    }
+    >div.five-star-shards {
+      &:before {
+        background-image: url('asset/images/five-shard.png');
+      }
+    }
+  }
 }

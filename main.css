@@ -352,6 +352,42 @@
   font-size: 12px;
   font-weight: bold; }
 
+.me-simulator .totals {
+  max-width: 750px;
+  margin: 0 auto; }
+
+.me-simulator .shard-counters {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0; }
+  .me-simulator .shard-counters > div {
+    display: inline-block;
+    max-width: 10%;
+    vertical-align: top;
+    text-align: center; }
+    .me-simulator .shard-counters > div:before {
+      content: '';
+      width: 40px;
+      height: 40px;
+      margin: 0 auto;
+      background-size: cover;
+      display: block;
+      margin-right: 0.5em; }
+  .me-simulator .shard-counters > div.alliance:before {
+    background-image: url("asset/images/alliance-four-shard.png"); }
+  .me-simulator .shard-counters > div.horde:before {
+    background-image: url("asset/images/horde-four-shard.png"); }
+  .me-simulator .shard-counters > div.elves:before {
+    background-image: url("asset/images/elves-four-shard.png"); }
+  .me-simulator .shard-counters > div.undead:before {
+    background-image: url("asset/images/undead-four-shard.png"); }
+  .me-simulator .shard-counters > div.heaven:before {
+    background-image: url("asset/images/heaven-four-shard.png"); }
+  .me-simulator .shard-counters > div.hell:before {
+    background-image: url("asset/images/hell-four-shard.png"); }
+  .me-simulator .shard-counters > div.five-star-shards:before {
+    background-image: url("asset/images/five-shard.png"); }
+
 .wheel-simulator .wheel-wrapper {
   text-align: center; }
   .wheel-simulator .wheel-wrapper > div {
