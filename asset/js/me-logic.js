@@ -21,9 +21,9 @@ var undeadFiveHeroes = ['<b class="undead">5-Frankenstein</b>', '<b class="undea
     '<b class="undead b-tier gerald">5-Gerald</b>', '<b class="undead a-tier reaper">5-Reaper</b>', '<b class="undead aden a-tier">5-Aden</b>', '<b class="undead ripper a-tier">5-Ripper</b>', '<b class="undead shudde-m-ell epic">5-ShuddeMell</b>',
     '<b class="undead a-tier dettlaff">5-Dettlaff</b>'];
 
-var heavenHellFiveHeroes = ['<b class="heaven">5-GoldenPastor</b>', '<b class="heaven">5-Morgenstern</b>', '<b class="heaven">5-HeavenJudge</b>', '<b class="heaven verthandi a-tier epic">5-Verthandi</b>',
+var heavenHellFiveHeroes = ['<b class="heaven">5-GoldenPastor</b>', '<b class="heaven">5-Morgenstern</b>', '<b class="heaven">5-HeavenJudge</b>', '<b class="heaven verthandi a-tier">5-Verthandi</b>',
     '<b class="heaven nameless-king epic">5-NamelessKing</b>', '<b class="heaven mars epic">5-Mars</b>', '<b class="heaven lindberg epic">5-Lindberg</b>', '<b class="heaven skuld epic">5-Skuld</b>', '<b class="hell">5-Belial</b>',
-    '<b class="hell">5-Aurelle</b>', '<b class="hell">5-DarkJudge</b>', '<b class="hell freya a-tier epic">5-Freya</b>', '<b class="hell monkey-king epic">5-MonkeyKing</b>', '<b class="hell chessia epic">5-Chessia</b>',
+    '<b class="hell">5-Aurelle</b>', '<b class="hell">5-DarkJudge</b>', '<b class="hell freya a-tier">5-Freya</b>', '<b class="hell monkey-king epic">5-MonkeyKing</b>', '<b class="hell chessia epic">5-Chessia</b>',
     '<b class="hell xexanoth epic">5-Xexanoth</b>'];
 
 var allianceFourHeroes = ['<span class="alliance">4-SirConrad</span>', '<span class="alliance">4-LoneHero</span>', '<span class="alliance">4-BlueHat</span>',
