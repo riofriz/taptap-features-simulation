@@ -75,7 +75,7 @@ var getRandomHero = function(array) {
 
     if (hero.includes("epic")) {
         calc = Math.random() * 10;
-        if (calc > 0.15) {
+        if (calc > 0.30) {
             do {
                 hero = arrayShuffle(array[Math.floor(Math.random() * array.length)]);
                 console.log('in while - '+hero)
