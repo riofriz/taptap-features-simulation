@@ -74,9 +74,9 @@ var getRandomHero = function(array) {
         calc = Math.random() * 10,
         heavenHellChance;
 
-    if (hero.includes("epic") && !hero.includes('a-tier')) {
+    if (hero.includes("epic")) {
         calc = Math.random() * 10;
-        heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 0.80 : 0.30;
+        heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 0.55 : 0.30;
         if (calc > heavenHellChance) {
             do {
                 hero = arrayShuffle(array[Math.floor(Math.random() * array.length)]);
@@ -87,6 +87,7 @@ var getRandomHero = function(array) {
 
     if (hero.includes("a-tier")) {
         calc = Math.random() * 10;
+        heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 3.5 : 2.3;
         if (calc > 2.3) {
             do {
                 hero = arrayShuffle(array[Math.floor(Math.random() * array.length)]);
