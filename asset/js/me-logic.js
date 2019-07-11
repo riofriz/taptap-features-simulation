@@ -71,12 +71,12 @@ var randomFromTo = function (from, to) {
 
 var getRandomHero = function(array) {
     var hero = array[Math.floor(Math.random() * array.length)],
-        calc = Math.random() * 10,
+        calc = Math.random() * 100,
         heavenHellChance;
 
     if (hero.includes("epic")) {
-        calc = Math.random() * 10;
-        heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 0.45 : 0.30;
+        calc = Math.random() * 100;
+        heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 4.5 : 3;
         if (calc > heavenHellChance) {
             do {
                 hero = arrayShuffle(array[Math.floor(Math.random() * array.length)]);
@@ -86,8 +86,8 @@ var getRandomHero = function(array) {
     }
 
     if (hero.includes("a-tier")) {
-        calc = Math.random() * 10;
-        heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 4.5 : 2.3;
+        calc = Math.random() * 100;
+        heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 45 : 23;
         if (calc > heavenHellChance) {
             do {
                 hero = arrayShuffle(array[Math.floor(Math.random() * array.length)]);
@@ -96,8 +96,8 @@ var getRandomHero = function(array) {
     }
 
     if (hero.includes("b-tier")) {
-        calc = Math.random() * 10;
-        if (calc > 4) {
+        calc = Math.random() * 100;
+        if (calc > 40) {
             do {
                 hero = arrayShuffle(array[Math.floor(Math.random() * array.length)]);
             } while (hero.includes('b-tier'));
