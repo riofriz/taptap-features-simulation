@@ -19,46 +19,44 @@ var fourStar = ['<span class="alliance">4-SirConrad</span>', '<span class="allia
 
 var fiveStarFodders = ['<b class="alliance">5-SirConrad</b>', '<b class="alliance">5-LoneHero</b>', '<b class="alliance">5-BlueHat</b>', '<b class="alliance">5-Olivia</b>',
     '<b class="alliance">5-BattleFury</b>', '<b class="alliance">5-Paladin</b>', '<b class="alliance">5-BlackBeard</b>', '<b class="alliance">5-Radolf</b>',
-    '<b class="alliance">5-KingLionheart</b>', '<b class="alliance b-tier">5-Tesla</b>', '<b class="alliance">5-Samurai</b>',
+    '<b class="alliance">5-KingLionheart</b>',
     '<b class="horde">5-OrcWarrior</b>', '<b class="horde">5-Murloc</b>', '<b class="horde">5-Khalil</b>',
-    '<b class="horde">5-WitchDoctor</b>', '<b class="horde">5-EagleEyeShaman</b>', '<b class="horde">5-Rlyeh</b>', '<b class="horde">5-Ogre</b>',
-    '<b class="horde">5-ShamanAssasin</b>', '<b class="horde">5-WolfRider</b>', '<b class="horde">5-SwordMaster</b>',
-    '<b class="horde b-tier">5-Minotaur</b>', '<b class="horde">5-AbyssLord</b>',
-    '<b class="elves">5-MegaW</b>', '<b class="elves">5-Treant</b>', '<b class="elves">5-Werewolf</b>',
+    '<b class="horde">5-WitchDoctor</b>', '<b class="horde">5-EagleEyeShaman</b>', '<b class="horde">5-Ogre</b>',
+    '<b class="horde">5-ShamanAssasin</b>', '<b class="horde">5-SwordMaster</b>',
+    '<b class="elves">5-Treant</b>',
     '<b class="elves">5-Shaly</b>', '<b class="elves">5-ForestHealer</b>', '<b class="elves">5-MiKun</b>', '<b class="elves">5-Amy</b>', '<b class="elves">5-Rossetti</b>',
-    '<b class="elves">5-Orphee</b>', '<b class="elves b-tier">5-Centaur</b>', '<b class="elves b-tier">5-TigerKing</b>', '<b class="elves">5-DemonFighter</b>',
+    '<b class="elves">5-DemonFighter</b>',
     '<b class="undead">5-Frankenstein</b>', '<b class="undead">5-PumpkinSoldier</b>',
     '<b class="undead">5-ChemicalButcher</b>', '<b class="undead">5-Forren</b>', '<b class="undead">5-Anubis</b>', '<b class="undead">5-CrowArcher</b>', '<b class="undead">5-PuppetMaid</b>',
-    '<b class="undead">5-Exdeath</b>', '<b class="undead b-tier">5-Hester</b>', '<b class="undead">5-Dziewona</b>', '<b class="undead">5-CursedOne</b>',
-    '<b class="undead b-tier">5-Gerald</b>',
-    '<b class="undead">5-Dettlaff</b>', '<b class="heaven">5-GoldenPastor</b>', '<b class="heaven">5-Morgenstern</b>', '<b class="heaven">5-HeavenJudge</b>',
+    '<b class="undead">5-Exdeath</b>', '<b class="undead">5-CursedOne</b>',
+    '<b class="heaven">5-GoldenPastor</b>', '<b class="heaven">5-Morgenstern</b>', '<b class="heaven">5-HeavenJudge</b>',
     '<b class="hell">5-Belial</b>', '<b class="hell">5-Aurelle</b>', '<b class="hell">5-DarkJudge</b>'];
 
 var fiveStar = ['<b class="alliance">5-SirConrad</b>', '<b class="alliance">5-LoneHero</b>', '<b class="alliance">5-BlueHat</b>', '<b class="alliance">5-Olivia</b>',
     '<b class="alliance">5-BattleFury</b>', '<b class="alliance">5-Paladin</b>', '<b class="alliance">5-BlackBeard</b>', '<b class="alliance">5-Radolf</b>',
-    '<b class="alliance">5-KingLionheart</b>', '<b class="alliance b-tier">5-Tesla</b>', '<b class="alliance">5-Samurai</b>', '<b class="alliance a-tier">5-Mulan</b>',
-    '<b class="alliance a-tier">5-SawMachine</b>', '<b class="alliance a-tier">5-Ultima</b>', '<b class="alliance a-tier">5-Vivienne</b>', '<b class="alliance a-tier">5-Martin</b>',
-    '<b class="alliance epic">5-Valkyrie</b>', '<b class="horde">5-OrcWarrior</b>', '<b class="horde">5-Murloc</b>', '<b class="horde">5-Khalil</b>',
-    '<b class="horde">5-WitchDoctor</b>', '<b class="horde">5-EagleEyeShaman</b>', '<b class="horde">5-Rlyeh</b>', '<b class="horde">5-Ogre</b>',
-    '<b class="horde">5-ShamanAssasin</b>', '<b class="horde">5-WolfRider</b>', '<b class="horde">5-SwordMaster</b>', '<b class="horde a-tier">5-Scarlet</b>',
-    '<b class="horde b-tier">5-Minotaur</b>', '<b class="horde">5-AbyssLord</b>', '<b class="horde a-tier">5-Medusa</b>', '<b class="horde a-tier">5-BloodTooth</b>',
-    '<b class="horde a-tier">5-Lexar</b>', '<b class="horde epic">5-Phoenix</b>', '<b class="elves">5-MegaW</b>', '<b class="elves">5-Treant</b>', '<b class="elves">5-Werewolf</b>',
+    '<b class="alliance">5-KingLionheart</b>', '<b class="alliance a-tier tesla">5-Tesla</b>', '<b class="alliance a-tier samurai">5-Samurai</b>', '<b class="alliance mulan a-tier">5-Mulan</b>',
+    '<b class="alliance a-tier saw-machine">5-SawMachine</b>', '<b class="alliance a-tier ultima">5-Ultima</b>', '<b class="alliance vivienne a-tier">5-Vivienne</b>', '<b class="alliance martin a-tier">5-Martin</b>',
+    '<b class="alliance epic valkyrie">5-Valkyrie</b>', '<b class="horde">5-OrcWarrior</b>', '<b class="horde">5-Murloc</b>', '<b class="horde">5-Khalil</b>',
+    '<b class="horde">5-WitchDoctor</b>', '<b class="horde">5-EagleEyeShaman</b>', '<b class="horde b-tier rlyeh">5-Rlyeh</b>', '<b class="horde">5-Ogre</b>',
+    '<b class="horde">5-ShamanAssasin</b>', '<b class="horde b-tier wolf-rider">5-WolfRider</b>', '<b class="horde">5-SwordMaster</b>', '<b class="horde scarlet a-tier">5-Scarlet</b>',
+    '<b class="horde b-tier minotaur">5-Minotaur</b>', '<b class="horde b-tier abyss-lord">5-AbyssLord</b>', '<b class="horde medusa a-tier">5-Medusa</b>', '<b class="bloodtooth horde a-tier">5-BloodTooth</b>',
+    '<b class="horde a-tier lexar">5-Lexar</b>', '<b class="horde epic phoenix">5-Phoenix</b>', '<b class="elves b-tier megaw">5-MegaW</b>', '<b class="elves">5-Treant</b>', '<b class="elves b-tier werewolf">5-Werewolf</b>',
     '<b class="elves">5-Shaly</b>', '<b class="elves">5-ForestHealer</b>', '<b class="elves">5-MiKun</b>', '<b class="elves">5-Amy</b>', '<b class="elves">5-Rossetti</b>',
-    '<b class="elves">5-Orphee</b>', '<b class="elves a-tier">5-Vegvisir</b>', '<b class="elves b-tier">5-Centaur</b>', '<b class="elves b-tier">5-TigerKing</b>', '<b class="elves">5-DemonFighter</b>',
-    '<b class="elves a-tier">5-Grand</b>', '<b class="elves a-tier">5-Luna</b>', '<b class="elves epic">5-Drow</b>', '<b class="undead">5-Frankenstein</b>', '<b class="undead">5-PumpkinSoldier</b>',
+    '<b class="elves b-tier orphee">5-Orphee</b>', '<b class="elves vegvisir a-tier">5-Vegvisir</b>', '<b class="elves centaur b-tier">5-Centaur</b>', '<b class="elves tiger-king b-tier">5-TigerKing</b>', '<b class="elves">5-DemonFighter</b>',
+    '<b class="elves a-tier grand">5-Grand</b>', '<b class="elves luna a-tier">5-Luna</b>', '<b class="elves drow epic">5-Drow</b>', '<b class="undead">5-Frankenstein</b>', '<b class="undead">5-PumpkinSoldier</b>',
     '<b class="undead">5-ChemicalButcher</b>', '<b class="undead">5-Forren</b>', '<b class="undead">5-Anubis</b>', '<b class="undead">5-CrowArcher</b>', '<b class="undead">5-PuppetMaid</b>',
-    '<b class="undead">5-Exdeath</b>', '<b class="undead">5-Hester</b>', '<b class="undead">5-Dziewona</b>', '<b class="undead a-tier">5-Wolnir</b>', '<b class="undead">5-CursedOne</b>',
-    '<b class="undead b-tier">5-Gerald</b>', '<b class="undead a-tier">5-Reaper</b>', '<b class="undead a-tier">5-Aden</b>', '<b class="undead a-tier">5-Ripper</b>', '<b class="undead epic">5-ShuddeMell</b>',
-    '<b class="undead">5-Dettlaff</b>', '<b class="heaven">5-GoldenPastor</b>', '<b class="heaven">5-Morgenstern</b>', '<b class="heaven">5-HeavenJudge</b>', '<b class="heaven epic">5-Verthandi</b>',
-    '<b class="heaven epic">5-NamelessKing</b>', '<b class="heaven epic">5-Mars</b>', '<b class="heaven epic">5-Lindberg</b>', '<b class="heaven epic">5-Skuld</b>', '<b class="hell">5-Belial</b>',
-    '<b class="hell">5-Aurelle</b>', '<b class="hell">5-DarkJudge</b>', '<b class="hell epic">5-Freya</b>', '<b class="hell epic">5-MonkeyKing</b>', '<b class="hell epic">5-Chessia</b>',
-    '<b class="hell epic">5-Xexanoth</b>'];
+    '<b class="undead">5-Exdeath</b>', '<b class="undead a-tier hester">5-Hester</b>', '<b class="undead b-tier dziewona">5-Dziewona</b>', '<b class="undead wolnir a-tier">5-Wolnir</b>', '<b class="undead">5-CursedOne</b>',
+    '<b class="undead b-tier gerald">5-Gerald</b>', '<b class="undead a-tier reaper">5-Reaper</b>', '<b class="undead aden a-tier">5-Aden</b>', '<b class="undead ripper a-tier">5-Ripper</b>', '<b class="undead shudde-m-ell epic">5-ShuddeMell</b>',
+    '<b class="undead a-tier dettlaff">5-Dettlaff</b>', '<b class="heaven">5-GoldenPastor</b>', '<b class="heaven">5-Morgenstern</b>', '<b class="heaven">5-HeavenJudge</b>', '<b class="heaven verthandi epic">5-Verthandi</b>',
+    '<b class="heaven nameless-king epic">5-NamelessKing</b>', '<b class="heaven mars epic">5-Mars</b>', '<b class="heaven lindberg epic">5-Lindberg</b>', '<b class="heaven skuld epic">5-Skuld</b>', '<b class="hell">5-Belial</b>',
+    '<b class="hell">5-Aurelle</b>', '<b class="hell">5-DarkJudge</b>', '<b class="hell freya epic">5-Freya</b>', '<b class="hell monkey-king epic">5-MonkeyKing</b>', '<b class="hell chessia epic">5-Chessia</b>',
+    '<b class="hell xexanoth epic">5-Xexanoth</b>'];
 
-var upChest = ['<b class="alliance a-tier up-chest">5-Vivienne</b>', '<b class="elves a-tier up-chest">5-Luna</b>', '<b class="alliance a-tier up-chest">5-SawMachine</b>', '<b class="alliance b-tier up-chest">5-Ultima</b>',
-    '<b class="undead a-tier up-chest">5-Reaper</b>', '<b class="alliance a-tier up-chest">5-Mulan</b>', '<b class="undead epic up-chest">5-ShuddeMell</b>', '<b class="elves a-tier up-chest">5-Vegvisir</b>',
+var upChest = ['<b class="alliance vivienne a-tier up-chest">5-Vivienne</b>', '<b class="elves luna a-tier up-chest">5-Luna</b>', '<b class="alliance saw-machine a-tier up-chest">5-SawMachine</b>', '<b class="alliance ultima b-tier up-chest">5-Ultima</b>',
+    '<b class="undead a-tier reaper up-chest">5-Reaper</b>', '<b class="alliance mulan a-tier up-chest">5-Mulan</b>', '<b class="undead shudde-m-ell epic up-chest">5-ShuddeMell</b>', '<b class="elves vegvisir a-tier up-chest">5-Vegvisir</b>',
     '<b class="hell epic up-chest">5-Freya</b>', '<b class="undead a-tier up-chest">5-Ripper</b>', '<b class="alliance a-tier up-chest">5-Martin</b>', '<b class="horde a-tier up-chest">5-Scarlet</b>',
-    '<b class="elves a-tier up-chest">5-Grand</b>', '<b class="undead a-tier up-chest">5-Aden</b>', '<b class="horde a-tier up-chest">5-Lexar</b>', '<b class="undead a-tier up-chest">5-Wolnir</b>',
-    '<b class="horde a-tier up-chest">5-Medusa</b>'];
+    '<b class="elves grand a-tier up-chest">5-Grand</b>', '<b class="undead aden a-tier up-chest">5-Aden</b>', '<b class="horde lexar a-tier up-chest">5-Lexar</b>', '<b class="undead wolnir a-tier up-chest">5-Wolnir</b>',
+    '<b class="horde medusa a-tier up-chest">5-Medusa</b>'];
 
 var threeStarChance;
 var fourStarChance;
@@ -157,7 +155,7 @@ $('.key').click(function() {
             $('.hero-gained').append('<h4>Up Chest Hero:</h4><div class="up-chest-wrapper"></div>')
         }
 
-        for ( var i = 0; i < 9; i++ ) {
+        for ( var i = 0; i <= 9; i++ ) {
             threeStarChance = getRandomHero(arrayShuffle(threeStar));
             fourStarChance = getRandomHero(arrayShuffle(fourStar));
             fiveStarChance = getRandomHero(arrayShuffle(fiveStar));
