@@ -282,6 +282,11 @@
 .me-simulator .fa-star:before {
   color: orange; }
 
+.me-simulator .reward {
+  text-align: center;
+  font-size: 10px;
+  padding: 3em; }
+
 .me-simulator .counter .alliance,
 .me-simulator .happy .alliance,
 .me-simulator .heroes .alliance {
@@ -398,6 +403,8 @@
     background-image: url("asset/images/hell-four-shard.png"); }
   .me-simulator .shard-counters > div.five-star-shards:before {
     background-image: url("asset/images/five-shard.png"); }
+  .me-simulator .shard-counters div.convert-shards:before {
+    background-image: url(asset/images/convert-shards.png); }
 
 .wheel-simulator .wheel-wrapper {
   text-align: center; }

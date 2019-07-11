@@ -5,6 +5,12 @@
     }
   }
 
+  .reward {
+    text-align: center;
+    font-size: 10px;
+    padding: 3em;
+  }
+
   .counter,
   .happy,
   .heroes {
@@ -75,9 +81,11 @@
   .totals {
     max-width: 850px;
     margin: 0 auto;
+
     h5 {
       text-align: center;
     }
+
     > div {
       font-weight: normal;
       span.counter {
@@ -85,6 +93,7 @@
         font-size: 24px;
       }
     }
+
     div.counter {
       font-size: 12px;
       font-weight: bold;
@@ -154,6 +163,11 @@
     >div.five-star-shards {
       &:before {
         background-image: url('asset/images/five-shard.png');
+      }
+    }
+    div.convert-shards {
+      &:before {
+        background-image: url(asset/images/convert-shards.png);
       }
     }
   }

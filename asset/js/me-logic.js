@@ -153,6 +153,11 @@ var getHeroReward = function(whatHero, faction) {
     return reward;
 };
 
+$(document).on('click', '.switches > span', function() {
+    $(this).parent().find('> span').removeClass('active');
+    $(this).addClass('active');
+});
+
 $(document).on('click', '.factions > button', function() {
     var clicked = $(this),
         faction = clicked.attr('data-faction'),
