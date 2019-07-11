@@ -71,11 +71,13 @@ var randomFromTo = function (from, to) {
 
 var getRandomHero = function(array) {
     var hero = array[Math.floor(Math.random() * array.length)],
-        calc = Math.random() * 10;
+        calc = Math.random() * 10,
+        heavenHellChance;
 
     if (hero.includes("epic")) {
         calc = Math.random() * 10;
-        if (calc > 0.30) {
+        heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 0.80 : 0.30;
+        if (calc > heavenHellChance) {
             do {
                 hero = arrayShuffle(array[Math.floor(Math.random() * array.length)]);
                 console.log('in while - '+hero)
