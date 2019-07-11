@@ -1,167 +1,3 @@
-.key-simulator .container {
-  max-width: 1440px;
-  margin: 0 auto;
-  box-sizing: border-box; }
-  .key-simulator .container .key-used {
-    margin: 2em 0;
-    display: block; }
-    .key-simulator .container .key-used b {
-      border: 0;
-      font-size: 24px; }
-  .key-simulator .container .data .hero-numbers {
-    text-align: center; }
-    .key-simulator .container .data .hero-numbers h4 {
-      padding-right: 2em;
-      display: inline-block; }
-      .key-simulator .container .data .hero-numbers h4:after {
-        font-family: 'fontAwesome';
-        color: orange;
-        display: block; }
-      .key-simulator .container .data .hero-numbers h4.five:after {
-        content: '\f005 \f005 \f005 \f005 \f005 ';
-        font-family: 'FontAwesome'; }
-      .key-simulator .container .data .hero-numbers h4.four:after {
-        content: '\f005 \f005 \f005 \f005';
-        font-family: 'fontAwesome'; }
-      .key-simulator .container .data .hero-numbers h4.three:after {
-        content: '\f005 \f005 \f005';
-        font-family: 'fontAwesome'; }
-  .key-simulator .container .result {
-    text-align: center;
-    padding: 1em 0 0 0; }
-  .key-simulator .container .functionality {
-    text-align: center; }
-    .key-simulator .container .functionality .buttons {
-      padding-bottom: 1em; }
-  .key-simulator .container .logs {
-    text-align: center;
-    cursor: pointer; }
-    .key-simulator .container .logs .hide {
-      display: none; }
-  .key-simulator .container .hero-gained .heroes,
-  .key-simulator .container .hero-gained .happy {
-    margin-bottom: 1em; }
-
-.key-simulator b {
-  font-weight: 900; }
-
-.key-simulator .alliance {
-  color: blue; }
-
-.key-simulator .horde {
-  color: #5f1e02; }
-
-.key-simulator .elves {
-  color: purple; }
-
-.key-simulator .undead {
-  color: green; }
-
-.key-simulator .heaven {
-  color: orange; }
-
-.key-simulator .hell {
-  color: red; }
-
-.key-simulator .logs-scrollable {
-  max-height: 250px;
-  min-height: 250px;
-  overflow-y: scroll;
-  background: lightgray;
-  max-width: 100%;
-  padding: 1em;
-  box-sizing: border-box; }
-
-.key-simulator .hero-gained {
-  max-width: 800px;
-  margin: 0 auto; }
-
-.me-simulator .counter .alliance,
-.me-simulator .happy .alliance,
-.me-simulator .heroes .alliance {
-  color: blue; }
-
-.me-simulator .counter .horde,
-.me-simulator .happy .horde,
-.me-simulator .heroes .horde {
-  color: brown; }
-
-.me-simulator .counter .elves,
-.me-simulator .happy .elves,
-.me-simulator .heroes .elves {
-  color: purple; }
-
-.me-simulator .counter .undead,
-.me-simulator .happy .undead,
-.me-simulator .heroes .undead {
-  color: green; }
-
-.me-simulator .counter .heaven,
-.me-simulator .happy .heaven,
-.me-simulator .heroes .heaven {
-  color: orange; }
-
-.me-simulator .counter .hell,
-.me-simulator .happy .hell,
-.me-simulator .heroes .hell {
-  color: red; }
-
-.me-simulator .switches-wrapper {
-  text-align: center; }
-  .me-simulator .switches-wrapper .switches {
-    background-color: lightblue;
-    display: inline-block; }
-    .me-simulator .switches-wrapper .switches span {
-      padding: 1em;
-      margin: 0;
-      display: inline-block;
-      cursor: pointer; }
-      .me-simulator .switches-wrapper .switches span:first-child {
-        padding: 1em 1.1em; }
-      .me-simulator .switches-wrapper .switches span.active {
-        background-color: blue;
-        color: white; }
-
-.me-simulator .factions {
-  text-align: center; }
-  .me-simulator .factions > button {
-    cursor: pointer;
-    padding: 1em;
-    display: inline-block; }
-    .me-simulator .factions > button.alliance {
-      color: blue; }
-    .me-simulator .factions > button.horde {
-      color: brown; }
-    .me-simulator .factions > button.elves {
-      color: purple; }
-    .me-simulator .factions > button.undead {
-      color: green; }
-    .me-simulator .factions > button.heaven-hell {
-      color: red; }
-
-.me-simulator .totals > div {
-  font-weight: normal; }
-  .me-simulator .totals > div span.counter {
-    font-weight: bold;
-    font-size: 24px; }
-
-.me-simulator .totals div.counter {
-  font-size: 12px;
-  font-weight: bold; }
-
-.wheel-simulator .wheel-wrapper {
-  text-align: center; }
-  .wheel-simulator .wheel-wrapper > div {
-    display: none; }
-    .wheel-simulator .wheel-wrapper > div.active {
-      display: block; }
-
-.wheel-simulator .selected {
-  background-color: orange; }
-
-.wheel-simulator .disabled {
-  color: lightgray; }
-
 .heroes,
 .happy,
 .up-chest-wrapper {
@@ -364,3 +200,167 @@
     .happy b.aden:before,
     .up-chest-wrapper b.aden:before {
       background-image: url("https://cdn.discordapp.com/emojis/580424121192677396.png?v=1"); }
+
+.key-simulator .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box; }
+  .key-simulator .container .key-used {
+    margin: 2em 0;
+    display: block; }
+    .key-simulator .container .key-used b {
+      border: 0;
+      font-size: 24px; }
+  .key-simulator .container .data .hero-numbers {
+    text-align: center; }
+    .key-simulator .container .data .hero-numbers h4 {
+      padding-right: 2em;
+      display: inline-block; }
+      .key-simulator .container .data .hero-numbers h4:after {
+        font-family: 'fontAwesome';
+        color: orange;
+        display: block; }
+      .key-simulator .container .data .hero-numbers h4.five:after {
+        content: '\f005 \f005 \f005 \f005 \f005 ';
+        font-family: 'FontAwesome'; }
+      .key-simulator .container .data .hero-numbers h4.four:after {
+        content: '\f005 \f005 \f005 \f005';
+        font-family: 'fontAwesome'; }
+      .key-simulator .container .data .hero-numbers h4.three:after {
+        content: '\f005 \f005 \f005';
+        font-family: 'fontAwesome'; }
+  .key-simulator .container .result {
+    text-align: center;
+    padding: 1em 0 0 0; }
+  .key-simulator .container .functionality {
+    text-align: center; }
+    .key-simulator .container .functionality .buttons {
+      padding-bottom: 1em; }
+  .key-simulator .container .logs {
+    text-align: center;
+    cursor: pointer; }
+    .key-simulator .container .logs .hide {
+      display: none; }
+  .key-simulator .container .hero-gained .heroes,
+  .key-simulator .container .hero-gained .happy {
+    margin-bottom: 1em; }
+
+.key-simulator b {
+  font-weight: 900; }
+
+.key-simulator .alliance {
+  color: blue; }
+
+.key-simulator .horde {
+  color: #5f1e02; }
+
+.key-simulator .elves {
+  color: purple; }
+
+.key-simulator .undead {
+  color: green; }
+
+.key-simulator .heaven {
+  color: orange; }
+
+.key-simulator .hell {
+  color: red; }
+
+.key-simulator .logs-scrollable {
+  max-height: 250px;
+  min-height: 250px;
+  overflow-y: scroll;
+  background: lightgray;
+  max-width: 100%;
+  padding: 1em;
+  box-sizing: border-box; }
+
+.key-simulator .hero-gained {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.me-simulator .counter .alliance,
+.me-simulator .happy .alliance,
+.me-simulator .heroes .alliance {
+  color: blue; }
+
+.me-simulator .counter .horde,
+.me-simulator .happy .horde,
+.me-simulator .heroes .horde {
+  color: brown; }
+
+.me-simulator .counter .elves,
+.me-simulator .happy .elves,
+.me-simulator .heroes .elves {
+  color: purple; }
+
+.me-simulator .counter .undead,
+.me-simulator .happy .undead,
+.me-simulator .heroes .undead {
+  color: green; }
+
+.me-simulator .counter .heaven,
+.me-simulator .happy .heaven,
+.me-simulator .heroes .heaven {
+  color: orange; }
+
+.me-simulator .counter .hell,
+.me-simulator .happy .hell,
+.me-simulator .heroes .hell {
+  color: red; }
+
+.me-simulator .switches-wrapper {
+  text-align: center; }
+  .me-simulator .switches-wrapper .switches {
+    background-color: lightblue;
+    display: inline-block; }
+    .me-simulator .switches-wrapper .switches span {
+      padding: 1em;
+      margin: 0;
+      display: inline-block;
+      cursor: pointer; }
+      .me-simulator .switches-wrapper .switches span:first-child {
+        padding: 1em 1.1em; }
+      .me-simulator .switches-wrapper .switches span.active {
+        background-color: blue;
+        color: white; }
+
+.me-simulator .factions {
+  text-align: center; }
+  .me-simulator .factions > button {
+    cursor: pointer;
+    padding: 1em;
+    display: inline-block; }
+    .me-simulator .factions > button.alliance {
+      color: blue; }
+    .me-simulator .factions > button.horde {
+      color: brown; }
+    .me-simulator .factions > button.elves {
+      color: purple; }
+    .me-simulator .factions > button.undead {
+      color: green; }
+    .me-simulator .factions > button.heaven-hell {
+      color: red; }
+
+.me-simulator .totals > div {
+  font-weight: normal; }
+  .me-simulator .totals > div span.counter {
+    font-weight: bold;
+    font-size: 24px; }
+
+.me-simulator .totals div.counter {
+  font-size: 12px;
+  font-weight: bold; }
+
+.wheel-simulator .wheel-wrapper {
+  text-align: center; }
+  .wheel-simulator .wheel-wrapper > div {
+    display: none; }
+    .wheel-simulator .wheel-wrapper > div.active {
+      display: block; }
+
+.wheel-simulator .selected {
+  background-color: orange; }
+
+.wheel-simulator .disabled {
+  color: lightgray; }
