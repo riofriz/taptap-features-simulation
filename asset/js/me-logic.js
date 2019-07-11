@@ -65,6 +65,10 @@ var percentageChance = function(values, chances) {
     return values[arrayShuffle(pool)['0']];
 };
 
+var randomFromTo = function (from, to) {
+    return Math.floor(Math.random() * (to - from + 1) + from);
+};
+
 var getRandomHero = function(array) {
     var hero = array[Math.floor(Math.random() * array.length)],
         calc = Math.random() * 10;
@@ -161,6 +165,7 @@ $(document).on('click', '.factions > button', function() {
         counter,
         shardReward,
         heroReward,
+        convertReward = 0,
         className,
         reCalc = Math.random() * 100;
 
@@ -170,6 +175,7 @@ $(document).on('click', '.factions > button', function() {
         item = percentageChance(['five-hero', 'five-shard', 'four-hero', 'four-shard'], [fiveHeroChance, fiveShardChance, fourHeroChance, fourShardChance]);
         counter = $(".totals ."+faction+"-"+item+" .counter");
         console.log(".totals ."+faction+"-"+item+" .counter");
+        convertReward += parseInt(randomFromTo(12, 29));
 
         switch (true) {
             case (item === 'four-shard'):
@@ -202,7 +208,7 @@ $(document).on('click', '.factions > button', function() {
                 $('.reward').append(item+' / ');
                 break;
             case (item === 'five-shard'):
-                shardReward = Math.floor(Math.random() * 16) + 5;
+                shardReward = randomFromTo(7, 14);
                 $('.totals .five-star-shards .counter').html(parseInt($('.totals .five-star-shards .counter').html()) + parseInt(shardReward));
                 $('.reward').append(item+'('+shardReward+') / ');
                 break;
@@ -211,5 +217,7 @@ $(document).on('click', '.factions > button', function() {
         console.log(item+' '+faction);
     }
 
+    $('.reward').append('CONVERT SHARDS: '+convertReward);
+    $('.totals .convert-shards .counter').html(parseInt($('.totals .convert-shards .counter').html()) + convertReward);
     $('.number-of-pulls .counter').html(parseInt($('.number-of-pulls .counter').html()) + numberOfPulls);
 });
