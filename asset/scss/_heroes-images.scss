@@ -1,0 +1,245 @@
+.heroes,
+.happy,
+.up-chest-wrapper {
+  color: transparent;
+  b {
+    width: 50px;
+    visibility: hidden;
+    cursor: pointer;
+    &:hover {
+      visibility: visible;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      margin: 0 auto;
+      visibility: visible;
+    }
+    display: inline-block;
+
+    &.skuld {
+      width: auto;
+      visibility: visible;
+    }
+
+    &.abyss-lord {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121645531146.png?v=1');
+      }
+    }
+    &.xexanoth {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121905578014.png?v=1');
+      }
+    }
+    &.wolnir {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121868091424.png?v=1');
+      }
+    }
+    &.werewolf {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121637142539.png?v=1');
+      }
+    }
+    &.vivienne {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121830342695.png?v=1');
+      }
+    }
+    &.verthandi {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121788268564.png?v=1');
+      }
+    }
+    &.vegvisir {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121473695745.png?v=1');
+      }
+    }
+    &.valkyrie {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121742262292.png?v=1');
+      }
+    }
+    &.ultima {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121750519830.png?v=1');
+      }
+    }
+    &.tiger-king {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121788399636.png?v=1');
+      }
+    }
+    &.tesla {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121817497600.png?v=1');
+      }
+    }
+    &.phoenix {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121838731274.png?v=1');
+      }
+    }
+    &.scarlet {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121603588112.png?v=1');
+      }
+    }
+    &.saw-machine {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121830211608.png?v=1');
+      }
+    }
+    &.samurai {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121805045770.png?v=1');
+      }
+    }
+    &.rlyeh {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121385484322.png?v=1');
+      }
+    }
+    &.ripper {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121498992647.png?v=1');
+      }
+    }
+    &.wolf-rider {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121763102740.png?v=1');
+      }
+    }
+    &.reaper {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121708576789.png?v=1');
+      }
+    }
+    &.orphee {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424122174275584.png?v=1');
+      }
+    }
+    &.nameless-king {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424122170081290.png?v=1');
+      }
+    }
+    &.mulan {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121842794554.png?v=1');
+      }
+    }
+    &.monkey-king {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121985269770.png?v=1');
+      }
+    }
+    &.minotaur {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121473564695.png?v=1');
+      }
+    }
+    &.shudde-m-ell {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121549062162.png?v=1');
+      }
+    }
+    &.megaw {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121746325504.png?v=1');
+      }
+    }
+    &.medusa {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121813434378.png?v=1');
+      }
+    }
+    &.martin {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121490341918.png?v=1');
+      }
+    }
+    &.mars {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121587073044.png?v=1');
+      }
+    }
+    &.luna {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121670828053.png?v=1');
+      }
+    }
+    &.lindberg {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121851183107.png?v=1');
+      }
+    }
+    &.lexar {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121339478016.png?v=1');
+      }
+    }
+    &.hester {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121314443265.png?v=1');
+      }
+    }
+    &.grand {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121851183116.png?v=1');
+      }
+    }
+    &.gerald {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121146671105.png?v=1');
+      }
+    }
+    &.freya {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121301598219.png?v=1');
+      }
+    }
+    &.dziewona {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121452724243.png?v=1');
+      }
+    }
+    &.drow {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121289146377.png?v=1');
+      }
+    }
+    &.dettlaff {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424120815321089.png?v=1');
+      }
+    }
+    &.chessia {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424120915984385.png?v=1');
+      }
+    }
+    &.centaur {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121582878720.png?v=1');
+      }
+    }
+    &.bloodtooth {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424120945213442.png?v=1');
+      }
+    }
+    &.aden {
+      &:before {
+        background-image: url('https://cdn.discordapp.com/emojis/580424121192677396.png?v=1');
+      }
+    }
+  }
+}

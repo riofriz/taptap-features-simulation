@@ -1,0 +1,122 @@
+.key-simulator {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    .key-used {
+      margin: 2em 0;
+      display: block;
+      b {
+        border: 0;
+        font-size: 24px;
+      }
+    }
+
+    .data {
+
+      .hero-numbers {
+        text-align: center;
+        h4 {
+          padding-right: 2em;
+          display: inline-block;
+
+          &:after {
+            font-family: 'fontAwesome';
+            color: orange;
+            display: block;
+          }
+
+          &.five {
+            &:after {
+              content: '\f005 \f005 \f005 \f005 \f005 ';
+              font-family: 'FontAwesome';
+            }
+          }
+          &.four {
+            &:after {
+              content: '\f005 \f005 \f005 \f005';
+              font-family: 'fontAwesome';
+            }
+          }
+          &.three {
+            &:after {
+              content: '\f005 \f005 \f005';
+              font-family: 'fontAwesome';
+            }
+          }
+        }
+      }
+    }
+
+    .result {
+      text-align: center;
+      padding: 1em 0 0 0;
+    }
+
+    .functionality {
+      text-align: center;
+      .buttons {
+        padding-bottom: 1em;
+      }
+    }
+
+    .logs {
+      text-align: center;
+      cursor: pointer;
+      .hide {
+        display: none;
+      }
+    }
+
+    .hero-gained {
+      .heroes,
+      .happy {
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  b {
+    font-weight: 900;
+  }
+
+  .alliance {
+    color: blue;
+  }
+
+  .horde {
+    color: #5f1e02;
+  }
+
+  .elves {
+    color: purple;
+  }
+
+  .undead {
+    color: green;
+  }
+
+  .heaven {
+    color: orange;
+  }
+
+  .hell {
+    color: red;
+  }
+
+  .logs-scrollable {
+    max-height: 250px;
+    min-height: 250px;
+    overflow-y: scroll;
+    background: lightgray;
+    max-width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  .hero-gained {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

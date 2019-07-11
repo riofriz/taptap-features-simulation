@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAPTAP HEROES / Wheel - Simulator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="wheel-simulator">
+
+<div class="container">
+
+    <div class="wheels">
+        <button class="switch" data-target="normal-wheel">NORMAL WHEEL</button>
+        <button class="switch" data-target="adv-wheel">ADVANCED WHEEL</button>
+    </div>
+
+    <div class="wheel-wrapper">
+        <div class="normal-wheel active">
+            <div class="wheel-items">
+                <h4>Normal Wheel</h4>
+                <div class="row">
+                    <div data-amount="300" data-chance="340" data-code="gold" class="col gold">Gold</div>
+                    <div data-amount="1" data-chance="20" data-code="shard" class="col shard">4* Hero Shard</div>
+                    <div data-amount="1" data-chance="70" data-code="equip-2" class="col equip-2">Equip 2*</div>
+                    <div data-amount="1" data-chance="2" data-code="main-hero" class="col main-hero"><b>Hero</b></div>
+                    <div data-amount="1" data-chance="130" data-code="artifact" class="col artifact">Artifact</div>
+                    <div data-amount="140" data-chance="260" data-code="purple-soul" class="col purple-soul">Purple</div>
+                    <div data-amount="60" data-chance="158" data-code="rune-dust" class="col rune-dust">Rune Dust</div>
+                    <div data-amount="1" data-chance="20" data-code="equip-3" class="col equip-3">Equip 3*</div>
+                </div>
+
+                <div class="button">
+                    <button class="btn btn-success trigger">Spin Wheel x10</button>
+                    <button class="btn btn-danger reset">RESET WHEEL</button>
+                </div>
+            </div>
+
+            <div class="gains">
+                <div class="total-spins">
+                    <b class="spins">Total Spins: <span class="counter">0</span></b>
+                    <b class="tokens">Total Tokens: <span class="counter">0</span></b>
+                </div>
+                <div class="gold gain">
+                    <h5>Total Gold: <span class="counter">0</span>k</h5>
+                </div>
+                <div class="purple-soul gain">
+                    <h5>Total Purple Souls: <span class="counter">0</span>k</h5>
+                </div>
+                <div class="rune-dust gain">
+                    <h5>Total Rune Dust: <span class="counter">0</span></h5>
+                </div>
+                <div class="artifact gain">
+                    <h5>Total Artifacts: <span class="counter">0</span></h5>
+                </div>
+            </div>
+
+        </div>
+        <div class="adv-wheel">
+            <div class="wheel-items">
+                <h4>Advanced Wheel</h4>
+                <div class="row">
+                    <div data-amount="2" data-chance="400" data-code="adv-gold" class="col adv-gold">Gold</div>
+                    <div data-amount="1" data-chance="67" data-code="adv-shard" class="col adv-shard">H/H Hero Shard</div>
+                    <div data-amount="1" data-chance="100" data-code="gold-key" class="col gold-key">Golden Key</div>
+                    <div data-amount="1" data-chance="10" data-code="adv-main-hero" class="col adv-main-hero"><b>Hero</b></div>
+                    <div data-amount="400" data-chance="196" data-code="dog-food" class="col dog-food">Dog Food</div>
+                    <div data-amount="1" data-chance="85" data-code="miracle-eye" class="col miracle-eye">Miracle Eye</div>
+                    <div data-amount="1" data-chance="158" data-code="hero-license" class="col hero-license">License</div>
+                    <div data-amount="10" data-chance="20" data-code="bound-artifact" class="col bound-artifact">Bound Artifact</div>
+                </div>
+                <div class="button">
+                    <button class="btn btn-success trigger">Spin Wheel x10</button>
+                    <button class="btn btn-danger reset">RESET WHEEL</button>
+                </div>
+            </div>
+
+
+            <div class="gains">
+                <div class="total-spins">
+                    <b class="spins">Total Spins: <span class="counter">0</span></b>
+                    <b class="tokens">Total Tokens: <span class="counter">0</span></b>
+                </div>
+                <div class="adv-gold gain">
+                    <h5>Total Gold: <span class="counter">0</span>m</h5>
+                </div>
+                <div class="miracle-eye gain">
+                    <h5>Total Miracle Eyes: <span class="counter">0</span></h5>
+                </div>
+                <div class="dog-food gain">
+                    <h5>Total Dog Food: <span class="counter">0</span></h5>
+                </div>
+                <div class="bound-artifact gain">
+                    <h5>Total Bound Artifacts: <span class="counter">0</span></h5>
+                </div>
+                <div class="hero-license gain">
+                    <h5>Total Licenses: <span class="counter">0</span></h5>
+                </div>
+                <div class="gold-key gain">
+                    <h5>Total Golden Keys: <span class="counter">0</span></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="results">
+        <div class="jumbotron">
+
+        </div>
+    </div>
+
+</div>
+
+<script src="asset/js/wheel-logic.js"></script>
+
+</body>
+</html>

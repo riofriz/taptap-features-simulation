@@ -1,0 +1,20 @@
+.wheel-simulator {
+  .wheel-wrapper {
+    text-align: center;
+
+    > div {
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+
+  .selected {
+    background-color: orange;
+  }
+
+  .disabled {
+    color: lightgray;
+  }
+}

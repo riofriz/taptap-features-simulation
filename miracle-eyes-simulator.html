@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TAP TAP - Miracle Eye Simulator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="me-simulator">
+
+<div class="container">
+
+    <div class="switches-wrapper">
+        <div class="switches">
+            <span data-pull="1" class="one">1</span>
+            <span data-pull="10" class="ten active">10</span>
+        </div>
+        <div class="number-of-pulls">
+            Eyes Pulled: <span class="counter">0</span>
+        </div>
+    </div>
+
+    <div class="factions">
+        <button data-chance-5-hero="90" data-chance-5-shard="240" data-chance-4-hero="70" data-chance-4-shard="600" data-faction="alliance" class="btn alliance">alliance</button>
+        <button data-chance-5-hero="90" data-chance-5-shard="240" data-chance-4-hero="70" data-chance-4-shard="600" data-faction="horde" class="btn horde">horde</button>
+        <button data-chance-5-hero="90" data-chance-5-shard="240" data-chance-4-hero="70" data-chance-4-shard="600" data-faction="elves" class="btn elves">elves</button>
+        <button data-chance-5-hero="90" data-chance-5-shard="240" data-chance-4-hero="70" data-chance-4-shard="600" data-faction="undead" class="btn undead">undead</button>
+        <button data-chance-5-hero="45" data-chance-5-shard="275" data-chance-4-hero="400" data-chance-4-shard="280" data-faction="heaven-hell" class="btn heaven-hell">heaven&hell</button>
+    </div>
+
+    <div class="reward"></div>
+
+    <div class="totals">
+        <h5>5* Epic Pulls</h5>
+        <div class="happy"></div>
+        <h5>5* Lucky Pulls</h5>
+        <div class="heroes"></div>
+        <h5>Shards: </h5>
+        <div class="alliance-four-shard alliance">Alliance 4* <span class="counter">0</span> x 30</div>
+        <div class="horde-four-shard horde">Horde 4* <span class="counter">0</span> x 30</div>
+        <div class="elves-four-shard elves">Elves 4* <span class="counter">0</span> x 30</div>
+        <div class="undead-four-shard undead">Undead 4* <span class="counter">0</span> x 30</div>
+        <div class="heaven-hell-four-shard heaven">Heaven 4* <span class="counter">0</span> x 30</div>
+        <div class="heaven-hell-four-shard hell">Hell 4* <span class="counter">0</span> x 30</div>
+        <h5>5* Shards: </h5>
+        <div class="five-star-shards"><span class="counter">0</span></div>
+        <h5>4* Heroes</h5>
+        <div class="alliance-four-hero alliance">Alliance 4* <div class="counter"></div></div>
+        <div class="horde-four-hero horde">Horde 4* <div class="counter"></div></div>
+        <div class="elves-four-hero elves">Elves 4* <div class="counter"></div></div>
+        <div class="undead-four-hero undead">Undead 4* <div class="counter"></div></div>
+        <div class="heaven-hell-four-hero heaven-hell heaven">Heaven 4* <div class="counter"></div></div>
+        <div class="heaven-hell-four-hero heaven-hell hell">Hell 4* <div class="counter"></div></div>
+        <h5>5* Heroes</h5>
+        <div class="alliance-five-hero alliance">Alliance 5*<div class="counter"></div></div>
+        <div class="horde-five-hero horde">Horde 5*<div class="counter"></div></div>
+        <div class="elves-five-hero elves">Elves 5*<div class="counter"></div></div>
+        <div class="undead-five-hero undead">Undead 5*<div class="counter"></div></div>
+        <div class="heaven-hell-five-hero heaven-hell heaven">Heaven 5*<div class="counter"></div></div>
+        <div class="heaven-hell-five-hero heaven-hell hell">Hell 5*<div class="counter"></div></div>
+    </div>
+
+</div>
+
+<script src="asset/js/me-logic.js"></script>
+
+</body>
+</html>

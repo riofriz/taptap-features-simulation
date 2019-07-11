@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>TAPTAP HEROES / RNG - Simulator</title>
+</head>
+<body class="key-simulator">
+
+<div class="container">
+
+    <div class="result"><br /></div>
+    <br />
+
+    <div class="functionality">
+
+        <div class="buttons">
+            <button class="key key-1 btn btn-danger">1 Key</button>
+            <button class="key key-10 btn btn-danger">10 Keys</button>
+
+            <button class="key key-1 event btn btn-success">1 Key (During Event)</button>
+            <button class="key key-10 event btn btn-success">10 Keys (During Event)</button>
+        </div>
+
+        <div class="inputs">
+            <div class="inputs">
+                <input id="upChest" list="upList" placeholder="Insert UP Hero">
+                <datalist id="upList">
+                    <option value="Vivienne" data-value="0"></option>
+                    <option value="Luna" data-value="1"></option>
+                    <option value="Saw" data-value="2"></option>
+                    <option value="Ultima" data-value="3"></option>
+                    <option value="Reaper" data-value="4"></option>
+                    <option value="Mulan" data-value="5"></option>
+                    <option value="ShuddeMell" data-value="6"></option>
+                    <option value="Vegvisir" data-value="7"></option>
+                    <option value="Freya" data-value="8"></option>
+                    <option value="Ripper" data-value="9"></option>
+                    <option value="Martin" data-value="10"></option>
+                    <option value="Scarlet" data-value="11"></option>
+                    <option value="Grand" data-value="12"></option>
+                    <option value="Aden" data-value="13"></option>
+                    <option value="Lexar" data-value="14"></option>
+                    <option value="Wolnir" data-value="15"></option>
+                    <option value="Medusa" data-value="16"></option>
+                </datalist>
+
+                <input class="target" type="text" placeholder="Alert on Hero" />
+            </div>
+        </div>
+
+        <div class="data">
+            <span class="key-used">Key Used: <b>0</b></span>
+
+            <div class="hero-numbers">
+                <h4 class="five"><span class="counter">0</span></h4>
+                <h4 class="four"><span class="counter">0</span></h4>
+                <h4 class="three"><span class="counter">0</span></h4>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hero-gained">
+        <h4>Rares: </h4>
+        <div class="heroes"></div>
+        <h4>Lucky Shots: </h4>
+        <div class="happy"></div>
+    </div>
+
+    <div class="logs">
+        <h5>Logs:</h5>
+        <div class="logs-scrollable hide"></div>
+    </div>
+
+</div>
+
+<script src="asset/js/keys-logic.js"></script>
+
+</body>
+</html>

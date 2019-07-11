@@ -1,0 +1,82 @@
+.me-simulator {
+  .counter,
+  .happy,
+  .heroes {
+    .alliance {
+      color: blue;
+    }
+    .horde {
+      color: brown;
+    }
+    .elves {
+      color: purple;
+    }
+    .undead {
+      color: green;
+    }
+    .heaven {
+      color: orange;
+    }
+    .hell {
+      color: red;
+    }
+  }
+  .switches-wrapper {
+    text-align: center;
+    .switches {
+      background-color: lightblue;
+      display: inline-block;
+      span {
+        padding: 1em;
+        margin: 0;
+        display: inline-block;
+        cursor: pointer;
+        &:first-child {
+          padding: 1em 1.1em;
+        }
+        &.active {
+          background-color: blue;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .factions {
+    text-align: center;
+    > button {
+      cursor: pointer;
+      padding: 1em;
+      display: inline-block;
+      &.alliance {
+        color: blue;
+      }
+      &.horde {
+        color: brown;
+      }
+      &.elves {
+        color: purple;
+      }
+      &.undead {
+        color: green;
+      }
+      &.heaven-hell {
+        color: red;
+      }
+    }
+  }
+
+  .totals {
+    > div {
+      font-weight: normal;
+      span.counter {
+        font-weight: bold;
+        font-size: 24px;
+      }
+    }
+    div.counter {
+      font-size: 12px;
+      font-weight: bold;
+    }
+  }
+}

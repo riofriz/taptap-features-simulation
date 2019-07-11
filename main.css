@@ -1,0 +1,366 @@
+.key-simulator .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box; }
+  .key-simulator .container .key-used {
+    margin: 2em 0;
+    display: block; }
+    .key-simulator .container .key-used b {
+      border: 0;
+      font-size: 24px; }
+  .key-simulator .container .data .hero-numbers {
+    text-align: center; }
+    .key-simulator .container .data .hero-numbers h4 {
+      padding-right: 2em;
+      display: inline-block; }
+      .key-simulator .container .data .hero-numbers h4:after {
+        font-family: 'fontAwesome';
+        color: orange;
+        display: block; }
+      .key-simulator .container .data .hero-numbers h4.five:after {
+        content: '\f005 \f005 \f005 \f005 \f005 ';
+        font-family: 'FontAwesome'; }
+      .key-simulator .container .data .hero-numbers h4.four:after {
+        content: '\f005 \f005 \f005 \f005';
+        font-family: 'fontAwesome'; }
+      .key-simulator .container .data .hero-numbers h4.three:after {
+        content: '\f005 \f005 \f005';
+        font-family: 'fontAwesome'; }
+  .key-simulator .container .result {
+    text-align: center;
+    padding: 1em 0 0 0; }
+  .key-simulator .container .functionality {
+    text-align: center; }
+    .key-simulator .container .functionality .buttons {
+      padding-bottom: 1em; }
+  .key-simulator .container .logs {
+    text-align: center;
+    cursor: pointer; }
+    .key-simulator .container .logs .hide {
+      display: none; }
+  .key-simulator .container .hero-gained .heroes,
+  .key-simulator .container .hero-gained .happy {
+    margin-bottom: 1em; }
+
+.key-simulator b {
+  font-weight: 900; }
+
+.key-simulator .alliance {
+  color: blue; }
+
+.key-simulator .horde {
+  color: #5f1e02; }
+
+.key-simulator .elves {
+  color: purple; }
+
+.key-simulator .undead {
+  color: green; }
+
+.key-simulator .heaven {
+  color: orange; }
+
+.key-simulator .hell {
+  color: red; }
+
+.key-simulator .logs-scrollable {
+  max-height: 250px;
+  min-height: 250px;
+  overflow-y: scroll;
+  background: lightgray;
+  max-width: 100%;
+  padding: 1em;
+  box-sizing: border-box; }
+
+.key-simulator .hero-gained {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.me-simulator .counter .alliance,
+.me-simulator .happy .alliance,
+.me-simulator .heroes .alliance {
+  color: blue; }
+
+.me-simulator .counter .horde,
+.me-simulator .happy .horde,
+.me-simulator .heroes .horde {
+  color: brown; }
+
+.me-simulator .counter .elves,
+.me-simulator .happy .elves,
+.me-simulator .heroes .elves {
+  color: purple; }
+
+.me-simulator .counter .undead,
+.me-simulator .happy .undead,
+.me-simulator .heroes .undead {
+  color: green; }
+
+.me-simulator .counter .heaven,
+.me-simulator .happy .heaven,
+.me-simulator .heroes .heaven {
+  color: orange; }
+
+.me-simulator .counter .hell,
+.me-simulator .happy .hell,
+.me-simulator .heroes .hell {
+  color: red; }
+
+.me-simulator .switches-wrapper {
+  text-align: center; }
+  .me-simulator .switches-wrapper .switches {
+    background-color: lightblue;
+    display: inline-block; }
+    .me-simulator .switches-wrapper .switches span {
+      padding: 1em;
+      margin: 0;
+      display: inline-block;
+      cursor: pointer; }
+      .me-simulator .switches-wrapper .switches span:first-child {
+        padding: 1em 1.1em; }
+      .me-simulator .switches-wrapper .switches span.active {
+        background-color: blue;
+        color: white; }
+
+.me-simulator .factions {
+  text-align: center; }
+  .me-simulator .factions > button {
+    cursor: pointer;
+    padding: 1em;
+    display: inline-block; }
+    .me-simulator .factions > button.alliance {
+      color: blue; }
+    .me-simulator .factions > button.horde {
+      color: brown; }
+    .me-simulator .factions > button.elves {
+      color: purple; }
+    .me-simulator .factions > button.undead {
+      color: green; }
+    .me-simulator .factions > button.heaven-hell {
+      color: red; }
+
+.me-simulator .totals > div {
+  font-weight: normal; }
+  .me-simulator .totals > div span.counter {
+    font-weight: bold;
+    font-size: 24px; }
+
+.me-simulator .totals div.counter {
+  font-size: 12px;
+  font-weight: bold; }
+
+.wheel-simulator .wheel-wrapper {
+  text-align: center; }
+  .wheel-simulator .wheel-wrapper > div {
+    display: none; }
+    .wheel-simulator .wheel-wrapper > div.active {
+      display: block; }
+
+.wheel-simulator .selected {
+  background-color: orange; }
+
+.wheel-simulator .disabled {
+  color: lightgray; }
+
+.heroes,
+.happy,
+.up-chest-wrapper {
+  color: transparent; }
+  .heroes b,
+  .happy b,
+  .up-chest-wrapper b {
+    width: 50px;
+    visibility: hidden;
+    cursor: pointer;
+    display: inline-block; }
+    .heroes b:hover,
+    .happy b:hover,
+    .up-chest-wrapper b:hover {
+      visibility: visible; }
+    .heroes b:before,
+    .happy b:before,
+    .up-chest-wrapper b:before {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 40px;
+      background-size: cover;
+      margin: 0 auto;
+      visibility: visible; }
+    .heroes b.skuld,
+    .happy b.skuld,
+    .up-chest-wrapper b.skuld {
+      width: auto;
+      visibility: visible; }
+    .heroes b.abyss-lord:before,
+    .happy b.abyss-lord:before,
+    .up-chest-wrapper b.abyss-lord:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121645531146.png?v=1"); }
+    .heroes b.xexanoth:before,
+    .happy b.xexanoth:before,
+    .up-chest-wrapper b.xexanoth:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121905578014.png?v=1"); }
+    .heroes b.wolnir:before,
+    .happy b.wolnir:before,
+    .up-chest-wrapper b.wolnir:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121868091424.png?v=1"); }
+    .heroes b.werewolf:before,
+    .happy b.werewolf:before,
+    .up-chest-wrapper b.werewolf:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121637142539.png?v=1"); }
+    .heroes b.vivienne:before,
+    .happy b.vivienne:before,
+    .up-chest-wrapper b.vivienne:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121830342695.png?v=1"); }
+    .heroes b.verthandi:before,
+    .happy b.verthandi:before,
+    .up-chest-wrapper b.verthandi:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121788268564.png?v=1"); }
+    .heroes b.vegvisir:before,
+    .happy b.vegvisir:before,
+    .up-chest-wrapper b.vegvisir:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121473695745.png?v=1"); }
+    .heroes b.valkyrie:before,
+    .happy b.valkyrie:before,
+    .up-chest-wrapper b.valkyrie:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121742262292.png?v=1"); }
+    .heroes b.ultima:before,
+    .happy b.ultima:before,
+    .up-chest-wrapper b.ultima:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121750519830.png?v=1"); }
+    .heroes b.tiger-king:before,
+    .happy b.tiger-king:before,
+    .up-chest-wrapper b.tiger-king:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121788399636.png?v=1"); }
+    .heroes b.tesla:before,
+    .happy b.tesla:before,
+    .up-chest-wrapper b.tesla:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121817497600.png?v=1"); }
+    .heroes b.phoenix:before,
+    .happy b.phoenix:before,
+    .up-chest-wrapper b.phoenix:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121838731274.png?v=1"); }
+    .heroes b.scarlet:before,
+    .happy b.scarlet:before,
+    .up-chest-wrapper b.scarlet:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121603588112.png?v=1"); }
+    .heroes b.saw-machine:before,
+    .happy b.saw-machine:before,
+    .up-chest-wrapper b.saw-machine:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121830211608.png?v=1"); }
+    .heroes b.samurai:before,
+    .happy b.samurai:before,
+    .up-chest-wrapper b.samurai:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121805045770.png?v=1"); }
+    .heroes b.rlyeh:before,
+    .happy b.rlyeh:before,
+    .up-chest-wrapper b.rlyeh:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121385484322.png?v=1"); }
+    .heroes b.ripper:before,
+    .happy b.ripper:before,
+    .up-chest-wrapper b.ripper:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121498992647.png?v=1"); }
+    .heroes b.wolf-rider:before,
+    .happy b.wolf-rider:before,
+    .up-chest-wrapper b.wolf-rider:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121763102740.png?v=1"); }
+    .heroes b.reaper:before,
+    .happy b.reaper:before,
+    .up-chest-wrapper b.reaper:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121708576789.png?v=1"); }
+    .heroes b.orphee:before,
+    .happy b.orphee:before,
+    .up-chest-wrapper b.orphee:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424122174275584.png?v=1"); }
+    .heroes b.nameless-king:before,
+    .happy b.nameless-king:before,
+    .up-chest-wrapper b.nameless-king:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424122170081290.png?v=1"); }
+    .heroes b.mulan:before,
+    .happy b.mulan:before,
+    .up-chest-wrapper b.mulan:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121842794554.png?v=1"); }
+    .heroes b.monkey-king:before,
+    .happy b.monkey-king:before,
+    .up-chest-wrapper b.monkey-king:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121985269770.png?v=1"); }
+    .heroes b.minotaur:before,
+    .happy b.minotaur:before,
+    .up-chest-wrapper b.minotaur:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121473564695.png?v=1"); }
+    .heroes b.shudde-m-ell:before,
+    .happy b.shudde-m-ell:before,
+    .up-chest-wrapper b.shudde-m-ell:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121549062162.png?v=1"); }
+    .heroes b.megaw:before,
+    .happy b.megaw:before,
+    .up-chest-wrapper b.megaw:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121746325504.png?v=1"); }
+    .heroes b.medusa:before,
+    .happy b.medusa:before,
+    .up-chest-wrapper b.medusa:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121813434378.png?v=1"); }
+    .heroes b.martin:before,
+    .happy b.martin:before,
+    .up-chest-wrapper b.martin:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121490341918.png?v=1"); }
+    .heroes b.mars:before,
+    .happy b.mars:before,
+    .up-chest-wrapper b.mars:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121587073044.png?v=1"); }
+    .heroes b.luna:before,
+    .happy b.luna:before,
+    .up-chest-wrapper b.luna:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121670828053.png?v=1"); }
+    .heroes b.lindberg:before,
+    .happy b.lindberg:before,
+    .up-chest-wrapper b.lindberg:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121851183107.png?v=1"); }
+    .heroes b.lexar:before,
+    .happy b.lexar:before,
+    .up-chest-wrapper b.lexar:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121339478016.png?v=1"); }
+    .heroes b.hester:before,
+    .happy b.hester:before,
+    .up-chest-wrapper b.hester:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121314443265.png?v=1"); }
+    .heroes b.grand:before,
+    .happy b.grand:before,
+    .up-chest-wrapper b.grand:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121851183116.png?v=1"); }
+    .heroes b.gerald:before,
+    .happy b.gerald:before,
+    .up-chest-wrapper b.gerald:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121146671105.png?v=1"); }
+    .heroes b.freya:before,
+    .happy b.freya:before,
+    .up-chest-wrapper b.freya:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121301598219.png?v=1"); }
+    .heroes b.dziewona:before,
+    .happy b.dziewona:before,
+    .up-chest-wrapper b.dziewona:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121452724243.png?v=1"); }
+    .heroes b.drow:before,
+    .happy b.drow:before,
+    .up-chest-wrapper b.drow:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121289146377.png?v=1"); }
+    .heroes b.dettlaff:before,
+    .happy b.dettlaff:before,
+    .up-chest-wrapper b.dettlaff:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424120815321089.png?v=1"); }
+    .heroes b.chessia:before,
+    .happy b.chessia:before,
+    .up-chest-wrapper b.chessia:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424120915984385.png?v=1"); }
+    .heroes b.centaur:before,
+    .happy b.centaur:before,
+    .up-chest-wrapper b.centaur:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121582878720.png?v=1"); }
+    .heroes b.bloodtooth:before,
+    .happy b.bloodtooth:before,
+    .up-chest-wrapper b.bloodtooth:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424120945213442.png?v=1"); }
+    .heroes b.aden:before,
+    .happy b.aden:before,
+    .up-chest-wrapper b.aden:before {
+      background-image: url("https://cdn.discordapp.com/emojis/580424121192677396.png?v=1"); }
