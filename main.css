@@ -279,7 +279,7 @@
   max-width: 800px;
   margin: 0 auto; }
 
-.me-simulator .fa-star {
+.me-simulator .fa-star:before {
   color: orange; }
 
 .me-simulator .counter .alliance,
@@ -345,19 +345,27 @@
     .me-simulator .factions > button.heaven-hell {
       color: red; }
 
-.me-simulator .totals > div {
-  font-weight: normal; }
-  .me-simulator .totals > div span.counter {
-    font-weight: bold;
-    font-size: 24px; }
-
-.me-simulator .totals div.counter {
-  font-size: 12px;
-  font-weight: bold; }
-
 .me-simulator .totals {
-  max-width: 750px;
+  max-width: 850px;
   margin: 0 auto; }
+  .me-simulator .totals h5 {
+    text-align: center; }
+  .me-simulator .totals > div {
+    font-weight: normal; }
+    .me-simulator .totals > div span.counter {
+      font-weight: bold;
+      font-size: 24px; }
+  .me-simulator .totals div.counter {
+    font-size: 12px;
+    font-weight: bold; }
+
+.me-simulator .counter-wrapper {
+  padding: 0.5em 0; }
+  .me-simulator .counter-wrapper > div {
+    padding: 0 0 0.8em 0; }
+    .me-simulator .counter-wrapper > div > strong {
+      display: inline-block;
+      padding-bottom: 0.5em; }
 
 .me-simulator .shard-counters {
   display: flex;

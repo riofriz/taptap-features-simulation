@@ -1,6 +1,8 @@
 .me-simulator {
   .fa-star {
-    color: orange;
+    &:before {
+      color: orange;
+    }
   }
 
   .counter,
@@ -71,6 +73,11 @@
   }
 
   .totals {
+    max-width: 850px;
+    margin: 0 auto;
+    h5 {
+      text-align: center;
+    }
     > div {
       font-weight: normal;
       span.counter {
@@ -84,11 +91,17 @@
     }
   }
 
-
-  .totals {
-    max-width: 750px;
-    margin: 0 auto;
+  .counter-wrapper {
+    padding: 0.5em 0;
+    >div {
+      padding: 0 0 0.8em 0;
+      >strong {
+        display: inline-block;
+        padding-bottom: 0.5em;
+      }
+    }
   }
+
   .shard-counters {
     display: flex;
     justify-content: space-between;
