@@ -279,6 +279,9 @@
   max-width: 800px;
   margin: 0 auto; }
 
+.me-simulator .fa-star {
+  color: orange; }
+
 .me-simulator .counter .alliance,
 .me-simulator .happy .alliance,
 .me-simulator .heroes .alliance {
