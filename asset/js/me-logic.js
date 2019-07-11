@@ -88,7 +88,7 @@ var getRandomHero = function(array) {
     if (hero.includes("a-tier")) {
         calc = Math.random() * 10;
         heavenHellChance = (hero.includes('heaven') || hero.includes('hell')) ? 3.5 : 2.3;
-        if (calc > 2.3) {
+        if (calc > heavenHellChance) {
             do {
                 hero = arrayShuffle(array[Math.floor(Math.random() * array.length)]);
             } while (hero.includes('a-tier'));
